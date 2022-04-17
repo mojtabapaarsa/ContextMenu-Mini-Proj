@@ -1,0 +1,46 @@
+ul , li {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+body {
+    box-sizing: border-box;
+    background-color: rgba(232, 232, 232, 0.621);
+    font-family: tahoma;
+    position: relative;
+    overflow-x: hidden;
+}
+#contextMenu {
+    background-color: #fff;
+    width: 250px;
+    height: auto;
+    border-radius: 8px;
+    padding: 5px 15px;
+    position: absolute;
+    display: none;
+}
+#contextMenu ul li {
+    margin: 5px 0;
+    padding: 10px ;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+#contextMenu ul li:hover {
+    background-color: rgba(225, 201, 248, 0.281);
+    border-radius: 6px;
+  
+}
+#contextMenu ul li:hover a {
+    color: blueviolet;
+}
+#contextMenu ul li a{
+    color: rgb(79, 78, 78);
+    display: block;
+}
+#contextMenu ul li a svg {
+    margin-right: 5px;
+}
